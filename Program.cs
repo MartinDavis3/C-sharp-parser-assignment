@@ -13,44 +13,51 @@ namespace C__parser_assignment
       Console.WriteLine("2 to enter a string to be removed in the file.");
       Console.WriteLine("3 to exit.");
     }
+    static void OutputFileErrorMessage()
+    {
+      Console.WriteLine( "No file found, please use option 1 to enter the name of an existing file." );
+    }
     static void Main(string[] args)
     {
       bool endRequested = false;
       string filename = "";
       string inputOption = "";
-      string stringToReplace = "";
       OutputInstructions();
       while ( !endRequested ) {
         Console.WriteLine("Input an option:");
         inputOption = Console.ReadLine();
         switch ( inputOption ) {
           case "1":
+            Console.WriteLine("Please enter the filename:");
             filename=Console.ReadLine();
+            if ( !File.Exists( filename ) ) {
+              OutputFileErrorMessage();
+            }
             break;
           case "2":
-            stringToReplace = Console.ReadLine();
+            Console.WriteLine("Please enter the string to remove in the file:");
+            string stringToReplace = Console.ReadLine();
             if (File.Exists(filename)) {
               string readText = File.ReadAllText(filename);
               string[] splitText = readText.Split(stringToReplace);
               string writeText ="";
               foreach ( string part in splitText ) {
-                writeText = writeText + " " + part;
+                writeText = writeText + part + " " ;
               }
               File.WriteAllText( filename, writeText );
             } else {
-              Console.WriteLine( "No such file, please use option 1 to enter a valid file name" );
+              OutputFileErrorMessage();
             }
             break;
           case "3":
             endRequested = true;
+            Console.WriteLine("Exit requested: Goodbye!");
             break;
           default:
             Console.WriteLine("Invalid option.");
             OutputInstructions();
             break;
         }
-
-
       }
     }
   }

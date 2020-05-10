@@ -1,0 +1,11 @@
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.exe
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.deps.json
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.runtimeconfig.json
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.runtimeconfig.dev.json
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.dll
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\bin\Debug\netcoreapp3.1\C#-parser-assignment.pdb
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\obj\Debug\netcoreapp3.1\C#-parser-assignment.csprojAssemblyReference.cache
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\obj\Debug\netcoreapp3.1\C#-parser-assignment.AssemblyInfoInputs.cache
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\obj\Debug\netcoreapp3.1\C#-parser-assignment.AssemblyInfo.cs
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\obj\Debug\netcoreapp3.1\C#-parser-assignment.dll
+C:\Users\Martin\Documents\SoftwareDevelopment\C#-parser-assignment\obj\Debug\netcoreapp3.1\C#-parser-assignment.pdb

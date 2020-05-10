@@ -1,0 +1,3 @@
+This isXa testXfile with a number ofXoccurrences of 'capital x' to test if theyXcanX
+beXproperlyXremoved and replacedXby spaces.
+TheXtruthXisXoutXthere!
